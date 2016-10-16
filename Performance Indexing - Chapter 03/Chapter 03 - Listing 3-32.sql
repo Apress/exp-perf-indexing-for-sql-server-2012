@@ -1,0 +1,25 @@
+--Listing 3-32.  T-SQL Script to Generate Page Allocations
+USE AdventureWorks2012 ;
+GO
+IF OBJECT_ID('dbo.AllocationCycle') IS NOT NULL
+  DROP TABLE dbo.AllocationCycle ;
+GO
+CREATE TABLE dbo.AllocationCycle
+(
+ID INT
+,FillerData VARCHAR(1000)
+,CreateDate DATETIME
+,CONSTRAINT PK_AllocationCycle PRIMARY KEY CLUSTERED (ID)
+) ;
+WITH l0 AS (
+  SELECT 0 AS C UNION ALL SELECT 0),
+  l1 AS (SELECT 0 AS C FROM l0 AS A CROSS JOIN l0 AS B),
+  l2 AS (SELECT 0 AS C FROM l1 AS A CROSS JOIN l1 AS B),
+  l3 AS (SELECT 0 AS C FROM l2 AS A CROSS JOIN l2 AS B),
+  l4 AS (SELECT 0 AS C FROM l3 AS A CROSS JOIN l3 AS B),
+  l5 AS (SELECT 0 AS C FROM l4 AS A CROSS JOIN l4 AS B),
+  nums AS (SELECT ROW_NUMBER() OVER (ORDER BY (SELECT NULL)) AS n FROM l5)
+INSERT INTO dbo.AllocationCycle
+SELECT TOP (100000) n, NEWID(), GETDATE()
+FROM nums
+ORDER BY n ;

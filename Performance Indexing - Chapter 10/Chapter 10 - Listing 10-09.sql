@@ -1,0 +1,51 @@
+--Listing 10-9.  Index Operational Stats Snapshot Population
+USE IndexingMethod
+GO
+INSERT INTO dbo.index_operational_stats_snapshot
+SELECT
+  GETDATE()
+  ,database_id
+  ,object_id
+  ,index_id
+  ,partition_number
+  ,leaf_insert_count
+  ,leaf_delete_count
+  ,leaf_update_count
+  ,leaf_ghost_count
+  ,nonleaf_insert_count
+  ,nonleaf_delete_count
+  ,nonleaf_update_count
+  ,leaf_allocation_count
+  ,nonleaf_allocation_count
+  ,leaf_page_merge_count
+  ,nonleaf_page_merge_count
+  ,range_scan_count
+  ,singleton_lookup_count
+  ,forwarded_fetch_count
+  ,lob_fetch_in_pages
+  ,lob_fetch_in_bytes
+  ,lob_orphan_create_count
+  ,lob_orphan_insert_count
+  ,row_over?ow_fetch_in_pages
+  ,row_over?ow_fetch_in_bytes
+  ,column_value_push_off_row_count
+  ,column_value_pull_in_row_count
+  ,row_lock_count
+  ,row_lock_wait_count
+  ,row_lock_wait_in_ms
+  ,page_lock_count
+  ,page_lock_wait_count
+  ,page_lock_wait_in_ms
+  ,index_lock_promotion_attempt_count
+  ,index_lock_promotion_count
+  ,page_latch_wait_count
+  ,page_latch_wait_in_ms
+  ,page_io_latch_wait_count
+  ,page_io_latch_wait_in_ms
+  ,tree_page_latch_wait_count
+  ,tree_page_latch_wait_in_ms
+  ,tree_page_io_latch_wait_count
+  ,tree_page_io_latch_wait_in_ms
+  ,page_compression_attempt_count
+  ,page_compression_success_count
+FROM sys.dm_db_index_operational_stats(NULL,NULL,NULL,NULL)

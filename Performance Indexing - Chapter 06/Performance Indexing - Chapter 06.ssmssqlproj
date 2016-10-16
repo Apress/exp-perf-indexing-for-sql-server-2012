@@ -1,0 +1,196 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Performance Indexing - Chapter 06">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="FL-WS-CON-JS01:PWCORP\jstrate">
+          <Created>2013-06-13T18:03:59.1656094-04:00</Created>
+          <Type>SQL</Type>
+          <Server>FL-WS-CON-JS01</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>15</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Chapter 06 - Listing 6-01.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-01.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-02.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-02.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-03.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-03.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-04.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-04.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-05.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-05.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-06.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-06.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-07.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-07.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-08.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-08.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-09.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-09.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-10.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-10.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-11.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-11.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-12.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-12.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-13.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-13.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-14.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-14.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-15.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-15.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-16.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-16.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-17.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-17.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-18.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-18.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-19.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-19.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-20.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-20.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-21.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-21.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-22.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-22.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-23.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-23.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-24.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-24.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-25.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-25.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-26.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-26.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-27.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-27.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Chapter 06 - Listing 6-28.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:FL-WS-CON-JS01:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>FL-WS-CON-JS01</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Chapter 06 - Listing 6-28.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
